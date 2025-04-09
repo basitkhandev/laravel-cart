@@ -80,13 +80,13 @@ function renderCart() {
     cartList.empty();
     let total = 0;
     if (cart.length === 0) {
-        cartList.append('<li>Cart is empty</li>');
+        cartList.append('<tr><td>Cart is empty</td></tr>');
     } else {
         cart.forEach(item => {
             const subtotal = item.quantity * item.price;
             total += subtotal;
-            cartList.append(`<li>${item.name} x ${item.quantity} = ${subtotal.toFixed(2)}</li>`);
+            cartList.append(`<tr><td>${item.name} x ${item.quantity} = ${subtotal.toFixed(2)}</td></tr>`);
         });
-        cartList.append(`<strong>Total: ${total.toFixed(2)}</strong>`);
+        cartList.append(`<tr><td><strong>Total: ${total.toFixed(2)}</strong></td></tr>`);
     }
 }

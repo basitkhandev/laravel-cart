@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<h3>Checkout Form</h3>
+<h4>Checkout Form</h4>
 
 <form id="checkoutForm">
     <span>Your Cart</span>

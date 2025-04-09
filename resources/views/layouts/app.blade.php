@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<button onclick="logoutuser()" class="hide btn btn-danger" id="logoutBtn" style="float: right">Logout</button>
+<button onclick="logoutuser()" class="hide btn btn-danger" id="logoutBtn" style="float: right;margin:20px">Logout</button>
 @yield('content')
 <style>
     .hide {
