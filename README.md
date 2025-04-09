@@ -19,7 +19,7 @@ DB_PASSWORD=
 
 php artisan key:generate
 php artisan passport:install
-php artisan migrate --seed
+php artisan db:seed
 php artisan serve
 
 
