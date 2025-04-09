@@ -8,7 +8,7 @@ cd laravel-cart
 composer install
 cp .env.example .env
 
-Configure Mysql Database
+Configure Mysql Database (Create new database in mysql first and then replace DB_DATABASE variable with it)
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
