@@ -18,6 +18,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 php artisan key:generate
+php artisan passport:install
 php artisan migrate --seed
 php artisan serve
 
