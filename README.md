@@ -20,3 +20,6 @@ DB_PASSWORD=
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
+
+
+Note: I have already seeded 2 users and 3 products
