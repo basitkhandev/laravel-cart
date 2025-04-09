@@ -20,10 +20,10 @@ DB_PASSWORD=
 php artisan key:generate
 php artisan passport:install
 php artisan db:seed
+npm install
+npm run dev
 php artisan serve
 
-
-Note: I have already seeded 2 users and 3 products
 
 Login:
 username : test1@example.com
